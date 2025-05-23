@@ -4,7 +4,7 @@ This project combines Python-based scraping with Excel-based sentiment analysis 
 
 ---
 
-## 📌 Project Objectives
+## Project Objectives
 
 - Collect Apple App Store reviews using Python
 - Clean and structure the dataset
@@ -13,7 +13,7 @@ This project combines Python-based scraping with Excel-based sentiment analysis 
 
 ---
 
-## 🔧 Tools Used
+## Tools Used
 
 - **Python**: requests, BeautifulSoup, pandas, TextBlob
 - **Excel**: Charts, summary statistics, conditional formatting
@@ -22,7 +22,7 @@ This project combines Python-based scraping with Excel-based sentiment analysis 
 
 ---
 
-## 📊 Key Insights
+## Key Insights
 
 - 71% of all reviews were **positive or neutral**
 - Sentiment dipped around version 5.14 due to audio/stability complaints
@@ -32,7 +32,7 @@ This project combines Python-based scraping with Excel-based sentiment analysis 
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 - How to extract structured review data from an app store using Python
 - Applying basic sentiment analysis to user-generated content
@@ -40,7 +40,7 @@ This project combines Python-based scraping with Excel-based sentiment analysis 
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
 - Automate updates to the dataset monthly
 - Compare Zoom reviews between App Store and Google Play
@@ -48,7 +48,7 @@ This project combines Python-based scraping with Excel-based sentiment analysis 
 
 ---
 
-📂 View project files:
+ View project files:
 - `zoom_reviews_scraper.ipynb` – web scraper + text cleaning
 - `cleaned_reviews.csv` – structured review dataset
 - `sentiment_analysis.xlsx` – Excel dashboard with all visualizations
