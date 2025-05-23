@@ -1,54 +1,50 @@
-# Zoom App Store Review Analysis
+# Zoom Review Sentiment Analysis
 
-This project combines Python-based scraping with Excel-based sentiment analysis to explore over 500 recent user reviews for the Zoom app on the Apple App Store.
-
----
-
-## Project Objectives
-
-- Collect Apple App Store reviews using Python
-- Clean and structure the dataset
-- Conduct sentiment analysis using TextBlob
-- Visualize review trends and overall sentiment using Excel
-
----
+This project analyzes customer reviews of the Zoom Cloud Meetings app from the Apple App Store. Using Python and Excel, I scraped recent reviews, cleaned and processed the text, performed sentiment classification, and visualized key insights. The goal was to practice end-to-end data analysis using real-world, unstructured data.
 
 ## Tools Used
 
-- **Python**: requests, BeautifulSoup, pandas, TextBlob
-- **Excel**: Charts, summary statistics, conditional formatting
-- **Jupyter Notebook**: Data scraping + cleaning
-- **GitHub**: Version control + portfolio hosting
+- Python (`requests`, `pandas`, `nltk`)
+- Excel (charts, pivot tables, sentiment tagging)
+- GitHub (version control and project documentation)
 
----
+## Key Findings
 
-## Key Insights
+- Approximately **71%** of user reviews were classified as **positive or neutral**
+- Frequently used terms focused on **performance, reliability, and audio quality**
+- Negative feedback often referenced **recent bugs and UI issues**
 
-- 71% of all reviews were **positive or neutral**
-- Sentiment dipped around version 5.14 due to audio/stability complaints
-- Excel dashboard visualizes average sentiment by review date and category
+## Project Structure
 
-![Sentiment Chart](charts/sentiment_chart.png)
+zoom-review-analysis/
+├── scripts/
+│ ├── review_scraper.py # Collects reviews from Apple App Store
+│ └── common_words.py # Analyzes frequent nouns/adjectives
+├── zoom_review_sentiment_analysis.xlsx # Raw data, sentiment tags, charts
+├── README.md
 
----
+vbnet
+Copy
+Edit
 
-## What I Learned
+## How It Works
 
-- How to extract structured review data from an app store using Python
-- Applying basic sentiment analysis to user-generated content
-- How to blend coding and Excel skills for powerful analysis and storytelling
+1. **`review_scraper.py`**: Pulls reviews from the Apple App Store using the Zoom App ID (`546505307`)
+2. **`common_words.py`**: Cleans the text, removes stopwords, and identifies the most common descriptive terms
+3. **`zoom_review_sentiment_analysis.xlsx`**: Includes raw reviews, manual sentiment labels, pivot tables, and visual summaries
 
----
+## How to Run
 
-## Next Steps
+1. Clone this repository
+2. Run both Python scripts inside the `scripts/` folder (Python 3 environment recommended)
+3. Open the Excel file to explore the results and visuals
 
-- Automate updates to the dataset monthly
-- Compare Zoom reviews between App Store and Google Play
-- Use NLP to identify most frequent complaint categories
+## About
 
----
+This project is part of my **self-directed learning journey into data analytics**. It highlights my ability to:
+- Work with APIs and JSON data
+- Clean and preprocess unstructured text
+- Apply basic natural language processing (NLP)
+- Visualize and communicate insights clearly
 
- View project files:
-- `zoom_reviews_scraper.ipynb` – web scraper + text cleaning
-- `cleaned_reviews.csv` – structured review dataset
-- `sentiment_analysis.xlsx` – Excel dashboard with all visualizations
+Feel free to explore or fork this repository. Feedback is always welcome!
