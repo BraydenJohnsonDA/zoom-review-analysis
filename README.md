@@ -16,12 +16,14 @@ This project analyzes customer reviews of the Zoom Cloud Meetings app from the A
 
 ## Project Structure
 
+```
 zoom-review-analysis/
 ├── scripts/
-│ ├── review_scraper.py # Collects reviews from Apple App Store
-│ └── common_words.py # Analyzes frequent nouns/adjectives
-├── zoom_review_sentiment_analysis.xlsx # Raw data, sentiment tags, charts
+│   ├── review_scraper.py           # Collects reviews from Apple App Store
+│   └── common_words.py             # Analyzes frequent nouns/adjectives
+├── zoom_review_sentiment_analysis.xlsx   # Raw data, sentiment tags, charts
 ├── README.md
+```
 
 vbnet
 Copy
